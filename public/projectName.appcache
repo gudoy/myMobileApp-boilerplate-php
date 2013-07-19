@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# V0.1.1.21: 2013-01-09 11:44
+
+
+# Explicitly cached resources
+CACHE:
+/favicon.ico
+/public/css/app.css
+/public/css/app-320up.css
+/public/css/app-480up.css
+/public/css/app-800up.css
+/public/css/app-1280up.css
+/public/js/libs/modernizr.custom.js
+/public/js/libs/zepto.min.js
+/public/js/libs/jquery.min.js
+/public/js/libs/zepto.ghostclick.min.js
+/public/js/app.js
+
+
+# Resources that require the user to be online.
+NETWORK:
+*
+#/index.html
+
+// If no connection available, allow fallbacks
+FALLBACK:
+#/login.html /offline.html

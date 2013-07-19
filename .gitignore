@@ -1,0 +1,42 @@
+*.project
+tests
+*.tmp
+*.bak
+*.swp
+.buildpath
+!.gitignore
+
+
+# SVN
+.svn/
+
+
+# Sass
+*.sass-cache
+
+
+# PHPGasus specific
+controllers/debug
+*_cache
+*_precompiled
+
+
+# SublimeText project files
+*.sublime-workspace
+
+
+# Espresso
+*.esproj
+
+
+# Mac
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
