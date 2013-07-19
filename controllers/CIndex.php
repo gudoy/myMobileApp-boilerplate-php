@@ -11,13 +11,20 @@ Class CIndex extends Controller
 		//$this->data = 'Welcome to PHPGasus Mû!';
 		//$this->data = array('foo' => 'foo', 'bar' => 'bar', 'foobar' => 42);
 		
-		$this->response->view->name = 'Home';
+		// Use an .html file as template
+		//$this->response->template = _PATH . 'templates/' . __FUNCTION__ . '.html';
+		
+		// Set an explicit view name
+		$this->response->view->name = 'home';
+		
 		$this->render();
 	}
-	
+ 
+	public function down()				{ $this->render(); }
 	public function maintenance()		{ $this->render(); }
 	public function down()				{ $this->render(); }
 	public function notfound()			{ $this->render(); }
+
 }
 
 

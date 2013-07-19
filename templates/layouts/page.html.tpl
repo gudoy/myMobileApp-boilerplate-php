@@ -16,7 +16,7 @@
 </head>
 <body>
 {block name='page'}
-	<div id="{$view.name}" class="layout page {$view.name} current" role="window">
+	<div id="{$view.name}" class="layout page {$view.id} current" role="window">
 		{block name='header'}{include file='blocks/header/header.html.tpl'}{/block}
 		{block name='body'}{include file='blocks/body/body.html.tpl'}{/block}
 		{block name='footer'}{include file='blocks/footer/footer.html.tpl'}{/block}
